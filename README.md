@@ -64,7 +64,8 @@ You have 10 seconds to send the IR code after which you will see the following:
 If overflow is not 0 it means data was lost and you should try again (perhaps you
 held the key down for too many repeats, try to press it quickly). If overflow is
 less then 50 you could try increasing <code>MAXLEN</code> but it more than likely
-means the filtering of the carrier signal has failed.
+means the filtering of the carrier signal has failed (esp. if any of the periods
+are in the range of 10 to 30 microseconds).
 
 You can then copy&paste the <code>Calculated Period data</code> into a new
 <code>const unsigned int</code> array at the top of the code and add a call
