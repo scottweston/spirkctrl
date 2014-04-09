@@ -28,12 +28,11 @@ Due to limitations on how much data can be sent through the SparkCore cloud I
 went for the very simple solution of outputting learnt sequences on the serial
 port which I then copy&paste into <code>const unsigned int</code> arrays in the
 code and then hit <code>flash</code>. To me this seemed the simplest solution,
-I have no need to program/send/understand IR codes - it's not like I
-install/change my aircon or AV equipment very often (I will be adding
+I have no need to program/send/understand new IR codes at run time - it's not
+like I install/change my aircon or AV equipment very often (I will be adding
 <code>power on</code> and <code>power off</code> for my AV amp soon as I like
 the idea of having it turn on when I get home so my Chromecast is ready to rock
-and roll so I can move my music from the car to the amp as I walk in the
-door).
+and roll so I can move my music from the car to the amp as I walk in the door).
 
 ### Operation
 
