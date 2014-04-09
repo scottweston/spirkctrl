@@ -158,8 +158,8 @@ int _playSequence(const unsigned int seq[]) {
 // dependency
 
 int _doUpdate(String args) {
-	Serial.println(args);
-	return(0);
+    Serial.println(args);
+    return(0);
 }
 
 // Exported functions ---------------------------------------------------------------------
