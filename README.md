@@ -69,7 +69,7 @@ are in the range of 10 to 30 microseconds).
 
 You can then copy&paste the <code>Calculated Period data</code> into a new
 <code>const unsigned int</code> array at the top of the code and add a call
-to <code>_playSequence()</code> in <code>doReplay</code> and then reflash
+to <code>_playSequence()</code> in <code>doReplay()</code> and then reflash
 the SparkCore. You can then replay the sequence via the following command
 (e.g. this will replay the <code>airHeatOn</code> array sequence):
 
