@@ -46,7 +46,7 @@ API_TOKEN from http://spark.io/build/):
 
     $ curl https://api.spark.io/v1/devices/SPARK_ID/learn -d access_token=API_TOKEN
 
-You will then see the serial:
+You will then see on the serial console:
 
     Send IR now:
 
